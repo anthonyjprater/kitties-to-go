@@ -1,16 +1,45 @@
 * {
   box-sizing: border-box;
 }
+body {
+  font-family: sans-serif;
+  color: #2f4f4f;
+  line-height: 1.7rem;
+}
+a {
+  color: #2095bc;
+}
 .flex-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  background-color: ;
 }
 .kitties-story {
+  background-color: ;
   width: 50%;
   padding: 1rem;
+  margin: 1rem;
+  text-align: justify;
+}
+h4 {
+  color: #2095bc;
+  font-size: 1.3rem;
 }
 .kitties-sidebar {
-  width: 25%;
+  background-color: ;
   padding: 1rem;
+  width: 22%;
+  margin: 1rem;
+  text-align: left;
+}
+h3 {
+  font-size: 1.4rem;
+}
+p {
+  padding-top: 1rem;
+  text-align: left;
+}
+section {
+  padding-top: 2rem;
 }
