@@ -2,38 +2,47 @@
   box-sizing: border-box;
 }
 body {
-  font-family: arial,sans-serif;
-  color: #2f4f4f;
-  line-height: 1.7rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #404040;
+  line-height: 1.7rem ;
 }
 header {
-  background-color: #2095bc;
+  background-color: #2f9eba;
   color: #ffffff;
-  font-style: italic;
+  line-height: normal;
+  padding-top: 4rem;
 }
 header h1 {
   position: relative;
-  left: 15%;
+  left: 12.5%;
   font-size: 4rem;
+  line-height: 2rem;
+  margin-bottom: 0;
 }
-header h2 {
+header p {
   position: relative;
-  left: 15%;
-  font-size: 1.8rem;
+  left: 12.5%;
+  font-size: 2.3rem;
+  padding-bottom: 3.5rem;
+  width: 33%;
+  font-style: italic;
+  margin-top: 1rem;
 }
-nav {
-  background-color: #e0e0e0;
-  padding: 1rem;
+.header-nav {
+  position: relative;
+  background-color: #e6e6e6;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin: 0;
 }
-nav ul li a {
-  color: #2f4f4f;
+.header-nav ul li a {
+  color: #404040;
   text-decoration: none;
   padding: 0.2rem;
   font-size: 1.2rem;
   font-weight: bolder;
-  font-style: italic;
 }
-nav ul li {
+.header-nav ul li {
   list-style-type: none;
   display: inline;
   position: relative;
@@ -42,6 +51,7 @@ nav ul li {
 }
 a {
   color: #2095bc;
+  text-decoration: none;
 }
 .flex-container {
   display: flex;
@@ -50,24 +60,24 @@ a {
   background-color: ;
 }
 .kitties-intro {
-  background-color: ;
   width: 50%;
   padding: 1rem;
   margin: 1rem;
   text-align: justify;
 }
-
-
 h4 {
   color: #2095bc;
   font-size: 1.3rem;
 }
 .kitties-sidebar {
-  background-color: ;
   padding: 1rem;
-  width: 22%;
+  width: 25%;
   margin: 1rem;
-  text-align: left;
+  text-align: justify;
+}
+.kittie-quote {
+  color: #51bde1;
+  font-size: 1.5rem;
 }
 h3 {
   font-size: 1.4rem;
@@ -78,4 +88,34 @@ p {
 }
 section {
   padding-top: 2rem;
+}
+figure {
+  text-align: left;
+  margin-left: 0rem;
+}
+footer {
+  background-color: #404040;
+  text-align: center;
+  margin: auto;
+  color: #ffffff;
+  padding: 4rem;
+}
+.footer-nav ul {
+  padding: 0.25rem;
+  white-space: nowrap;
+}
+.footer-nav ul li {
+  display: inline-block;
+  color: #ffffff;
+}
+.footer-nav ul li a {
+  color: #ffffff;
+  font-weight: bold;
+}
+footer p {
+  text-align: center;
+  display: inline-block;
+}
+.footer-fig, img{
+  text-align: center;
 }
