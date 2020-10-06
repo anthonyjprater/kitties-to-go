@@ -92,6 +92,10 @@ section {
 figure {
   text-align: left;
   margin-left: 0rem;
+  color:
+}
+a h3, figcaption {
+  color: #404040;
 }
 footer {
   background-color: #404040;
