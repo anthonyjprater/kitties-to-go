@@ -4,29 +4,68 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   color: #404040;
-  line-height: 1.7rem ;
+  line-height: 1.7rem;
+  margin: auto;
 }
 header {
   background-color: #2f9eba;
   color: #ffffff;
   line-height: normal;
   padding-top: 4rem;
+  margin: auto;
 }
-header h1 {
+h1 {
   position: relative;
   left: 12.5%;
   font-size: 4rem;
   line-height: 2rem;
   margin-bottom: 0;
 }
-header p {
+h2 {
   position: relative;
   left: 12.5%;
-  font-size: 2.3rem;
+  font-size: 2.2rem;
   padding-bottom: 3.5rem;
   width: 33%;
   font-style: italic;
-  margin-top: 1rem;
+  margin-top: 2rem;
+  font-weight: normal;
+}
+h3 {
+  font-size: 1.4rem;
+}
+h4 {
+  color: #2095bc;
+  font-size: 1.3rem;
+}
+p {
+  padding-top: 1rem;
+  text-align: left;
+}
+a {
+  color: #2095bc;
+  text-decoration: none;
+}
+section {
+  padding-top: 2rem;
+}
+figure {
+  text-align: left;
+  margin-left: 0rem;
+}
+a h3, figcaption {
+  color: #404040;
+}
+footer {
+  background-color: #404040;
+  text-align: center;
+  margin: auto;
+  color: #ffffff;
+  padding: 4rem;
+}
+footer p {
+  text-align: center;
+  display: inline-block;
 }
 .header-nav {
   position: relative;
@@ -49,15 +88,10 @@ header p {
   padding: 0.2rem;
   left: 9rem;
 }
-a {
-  color: #2095bc;
-  text-decoration: none;
-}
 .flex-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: ;
 }
 .kitties-intro {
   width: 50%;
@@ -65,44 +99,15 @@ a {
   margin: 1rem;
   text-align: justify;
 }
-h4 {
-  color: #2095bc;
-  font-size: 1.3rem;
+.kittie-quote {
+  color: #51bde1;
+  font-size: 1.5rem;
 }
 .kitties-sidebar {
   padding: 1rem;
   width: 25%;
   margin: 1rem;
   text-align: justify;
-}
-.kittie-quote {
-  color: #51bde1;
-  font-size: 1.5rem;
-}
-h3 {
-  font-size: 1.4rem;
-}
-p {
-  padding-top: 1rem;
-  text-align: left;
-}
-section {
-  padding-top: 2rem;
-}
-figure {
-  text-align: left;
-  margin-left: 0rem;
-  color:
-}
-a h3, figcaption {
-  color: #404040;
-}
-footer {
-  background-color: #404040;
-  text-align: center;
-  margin: auto;
-  color: #ffffff;
-  padding: 4rem;
 }
 .footer-nav ul {
   padding: 0.25rem;
@@ -115,10 +120,6 @@ footer {
 .footer-nav ul li a {
   color: #ffffff;
   font-weight: bold;
-}
-footer p {
-  text-align: center;
-  display: inline-block;
 }
 .footer-fig, img{
   text-align: center;
