@@ -1,11 +1,7 @@
 * {
   box-sizing: border-box;
-}
-body, html {
-    margin:0;
-    padding:0;
-    width: 100%;
-    min-width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -165,4 +161,7 @@ a:focus {
   width: 1px;
   height: 1px;
   overflow: hidden;
+}
+.skip-link{
+  visibility: hidden;
 }
